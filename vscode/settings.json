@@ -1,30 +1,134 @@
 {
-    "zenMode.fullScreen": false,
-    "zenMode.centerLayout": false,
+    "git.autofetch": true,
+    "editor.lineHeight": 22,
+    "editor.fontSize": 14,
+    "editor.fontLigatures": false,
+    "editor.minimap.renderCharacters": false,
+    "editor.minimap.enabled": false,
+    "workbench.fontAliasing": "antialiased",
+    "workbench.iconTheme": "material-icon-theme",
+    "window.zoomLevel": 0.5,
+    "workbench.tree.indent": 17,
+    "window.menuBarVisibility": "classic",
+    "editor.lineDecorationsWidth": 10,
+    "svelte.enable-ts-plugin": true,
+    "breadcrumbs.symbolPath": "off",
+    "workbench.activityBar.location": "top",
     "zenMode.hideLineNumbers": false,
-    "workbench.activityBar.location": "hidden",
-    "window.titleBarStyle": "native",
-
-
-    "editor.minimap.enabled": false, // removes minimap
-    "editor.renderWhitespace": "none", // removes whitespace chars
-    "editor.renderLineHighlight": "none", // removes line highlight
-    "editor.overviewRulerBorder": false, // removes border from overview ruler (located on the right, same position as the scrollbar)
-    "editor.hideCursorInOverviewRuler": true, // hides cursor mark in the overview ruler
-    "editor.folding": false, // removes the folding feature
-    "editor.occurrencesHighlight": false, // removes highlights occurrences (still works when you select a word)
-    "editor.glyphMargin": false, // removes the space used mainly for debugging indicators
-    "explorer.openEditors.visible": 1, // removes the open editors section at the top of the sidebar, you can see the opened files with ⌘ + ⌥ + Tab
-    // "workbench.editor.showIcons": false, // removes icon from opened files in tabs
-    "workbench.editor.tabCloseButton": "off", // removes cross icon from tabs
-    "workbench.statusBar.visible": false, // removes the status bar
-    // "workbench.colorCustomizations": { // object that allows you to customize your color theme: https://code.visualstudio.com/docs/getstarted/theme-color-reference 
-    //   "tab.activeBorder": "#0000" // removes border to highlight active tabs (the colors formats are: #RGB, #RGBA, #RRGGBB or #RRGGBBAA)
-    // },
-    "workbench.iconTheme": "vscode-jetbrains-icon-theme-2023-dark",
-    "workbench.productIconTheme": "icons-carbon",
-    "workbench.colorTheme": "Monokai Pro",
-    "editor.fontFamily": "Hack Nerd Font, Monaco, 'Courier New', monospace",
-    "editor.fontSize": 16,
-    "workbench.tree.indent": 16
+    "search.showLineNumbers": true,
+    "terminal.integrated.tabs.location": "left",
+    "workbench.colorCustomizations": {
+        "activityBarBadge.foreground": "#ffffffbf",
+        "activityBarBadge.background": "#3c3c3ca3",
+        "editor.background": "#1c1c1c",
+        "editor.lineHighlightBackground": "#26282d",
+        "editor.lineHighlightBorder": "#00000000",
+        "editorBracketMatch.background": "#43454a",
+        "editorBracketMatch.border": "#00000000",
+        "editorGroupHeader.tabsBackground": "#2B2D30",
+        "editorGutter.background": "#00000000",
+        "editorStickyScroll.border": "#393939",
+        "editorStickyScroll.shadow": "#00000078",
+        "editorWidget.background": "#2B2D30",
+        "focusBorder": "#00000000",
+        "panel.background": "#2B2D30",
+        "scrollbar.shadow": "#00000072",
+        "scrollbarSlider.background": "#ffffff12",
+        "sideBar.background": "#2B2D30",
+        "sideBarSectionHeader.border": "#00000000",
+        "statusBar.background": "#2B2D30",
+        "statusBar.debuggingBackground": "#2B2D30",
+        "statusBar.foreground": "#757575",
+        "panel.border": "#00000000",
+        "sideBar.border": "#00000000",
+        "statusBar.noFolderBackground": "#2B2D30",
+        "gitDecoration.modifiedResourceForeground": "#74aeec",
+        "gitDecoration.stageModifiedResourceForeground": "#74aeec",
+        "gitDecoration.addedResourceForeground": "#7fd27fd9",
+        "gitDecoration.renamedResourceForeground": "#74aeec",
+        "gitDecoration.untrackedResourceForeground": "#f7aeae",
+        "gitDecoration.ignoredResourceForeground": "#ffffff3b",
+        "statusBarItem.remoteBackground": "#2B2D30",
+        "statusBarItem.remoteForeground": "#757575",
+        "tab.activeBorderTop": "#0095ff",
+        "tab.border": "#2B2D30",
+        "tab.inactiveBackground": "#2B2D30",
+        "terminal.background": "#1E1F22",
+        "terminal.border": "#2B2D30",
+        "titleBar.activeBackground": "#2B2D30",
+        "titleBar.inactiveBackground": "#2B2D30",
+    },
+    "diffEditor.experimental.showMoves": true,
+    "typescript.preferences.includePackageJsonAutoImports": "on",
+    "typescript.preferences.preferTypeOnlyAutoImports": true,
+    "scss.implicitlyLabel": "",
+    "scss.showErrors": true,
+    "sass.andStared": [
+        "active",
+        "focus",
+        "hover",
+        "nth-child"
+    ],
+    "workbench.colorTheme": "Darcula - WebStorm Edition",
+    "explorer.autoReveal": false,
+    "workbench.tree.expandMode": "doubleClick",
+    "window.confirmBeforeClose": "keyboardOnly",
+    "editor.cursorSmoothCaretAnimation": "on",
+    "editor.linkedEditing": true,
+    "editor.snippetSuggestions": "bottom",
+    "svelte.plugin.svelte.defaultScriptLanguage": "ts",
+    "svelte.plugin.svelte.codeActions.enable": false,
+    "editor.suggestSelection": "recentlyUsedByPrefix",
+    "editor.suggest.preview": true,
+    "editor.suggest.shareSuggestSelections": true,
+    "files.autoSave": "afterDelay",
+    "files.insertFinalNewline": true,
+    "editor.hover.hidingDelay": 100,
+    "editor.hover.delay": 1000,
+    "editor.inlayHints.padding": true,
+    "editor.wordWrap": "on",
+    "workbench.editor.enablePreviewFromCodeNavigation": true,
+    "workbench.editor.customLabels.patterns": {
+        "/**/+**.svelte": "${dirname} ${filename}.${extname}",
+        "/**/+**.ts": "${dirname} ${filename}.${extname}"
+    },
+    "ltex.diagnosticSeverity": "information",
+    "editor.trimAutoWhitespace": false,
+    "javascript.inlayHints.enumMemberValues.enabled": true,
+    "javascript.suggest.completeFunctionCalls": true,
+    "emmet.useInlineCompletions": true,
+    "[vue]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "path-intellisense.autoTriggerNextSuggestion": true,
+    "path-intellisense.mappings": {
+        "~": "${workspaceFolder}/resources/js",
+    },
+    "vue.server.hybridMode": true,
+    "editor.detectIndentation": false,
+    "editor.indentSize": 4,
+    "editor.tabSize": 4,
+    "errorLens.delayMode": "debounce",
+    "problems.decorations.enabled": false,
+    "editor.accessibilitySupport": "off",
+    "github.copilot.enable": {
+        "*": true,
+        "plaintext": false,
+        "markdown": false,
+        "scminput": false
+    },
+    "workbench.list.smoothScrolling": true,
+    "editor.smoothScrolling": true,
+    "terminal.integrated.smoothScrolling": true,
+    "editor.fontFamily": "Menlo",
+    "editor.colorDecoratorsActivatedOn": "click",
+    "vscode_custom_css.imports": [
+        "file:///Users/prad/.vscode/custom.css"
+    ],
+    "typescript.extension.sortImports.omitSemicolon": true,
+    "chat.disableAIFeatures": true,
+    "claudeCode.preferredLocation": "panel",
+    "workbench.startupEditor": "none",
+    "editor.rulers": [80]
 }
+
